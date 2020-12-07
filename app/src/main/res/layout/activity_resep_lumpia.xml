@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    tools:context=".ResepKrawu">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Resep Lumpia Semarang"
+            android:textAlignment="center"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="Bahan Isian : "
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\n 500 gr rebung, iris tipis rebus sampai empuk(me:400gr)
+\n 250 gr fillet ayam, rebus cincang(me: 2 potong besar ayam)
+\n 250 gr udang cincang (me: 4 biji udang uk sedang)
+\n 3 butir telur, orak arik sm garam
+\n 3 batang daun bawang, iris
+
+
+" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bahan Bumbu Lumpia :"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\n 9 siung bawang merah, cincang
+\n 5 siung bawang putih,cincang
+\n 2 bulatan kecil gula merah, cincang
+\n 1 sdm gula pasir
+\n 1 sdt garam
+\n 1/2 sdt merica
+\n 1 sdt kaldu bubuk
+
+
+" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bahan Kulit Lumpia :"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\n 375 gr tepung terigu
+\n 3 putih telur
+\n 750 ml air
+\n 1 sdt garam
+\n 3 sdm minyak goreng
+
+
+" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bahan Saus :"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\n 3 siung bawang putih,geprek cincang
+\n 50 gr/ 1 bulatan kecil gula merah
+\n 1 sdt garam
+\n 1/2 sdt merica
+\n 1 gelas air
+
+" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Langkah-langkah :"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\n1.	Isian : tumis bawput bawmer sampai harum, masukkan ayam dan udang tumis sampai rata
+\n2.	Masukkan rebung, sisa bumbu, tambah sedikit air, masukkan daun bawang, aduk rata tes rasa
+\n3.	Bahan kulit : blender semua bahan, bikin dadar tipis d teflon, beri isian, lipat,bisa langsung dmakan ato dgoreng dulu
+\n4.	Bahan saus : tumis baput sebentar, beri gula merah dan air,aduk rata tunggu mendidih, beri maizena aduk sampai mengental
+
+" />
+
+        <VideoView
+            android:id="@+id/videoView"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            tools:layout_editor_absoluteX="17dp"
+            tools:layout_editor_absoluteY="121dp" />
+
+
+    </LinearLayout>
+</ScrollView>

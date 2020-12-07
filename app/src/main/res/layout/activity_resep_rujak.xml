@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    tools:context=".ResepKrawu">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Resep Rujak Cingur"
+            android:textAlignment="center"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="Bahan-bahan :"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1 ikat kangkung, dikukus
+        \n1 ons tauge / kecambah, dikukus
+        \n4 buah tahu putih, digoreng, potong-potong sedang
+        \n6 lembar tempe, digoreng, potong-potong sedang
+        \n1 buah bengkuang, potong-potong tipis
+        \n1 buah mangga muda, potong-potong tipis
+        \n2 buah timun, potong-potong tipis
+        \n2 buah lontong, potong-potong bulat
+        \n1/4 kg cingur sapi, direbus, potong-potong kecil
+        \n2 buah kerupuk kampung keriting
+        \nSecukupnya bawang merah goreng" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bahan Bumbu Rujak : "
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="100 gram kacang tanah, digoreng
+\n10 siung bawang putih, iris-iris tipis, goreng hingga kecoklatan
+\n6 biji cabai rawit merah
+\n3 sendok makan petis udang
+\n2 buah pisang batu / kluthuk, parut kasar
+\n3 sendok makan air asam jawa
+\n2 sendok makan gula merah
+\nSecukupnya garam dan air matang" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Langkah-langkah :"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Tata di piring semua bahan rujak yaitu, kangkung, tauge, tahu, tempe, timun, mangga muda, bengkuang, lontong dan cingur sapi.
+\n2. Haluskan bahan bumbu rujak, kacang tanah, bawang putih goreng, cabai rawit merah, pisang batu, gula merah dengan diuleg. Beri air asam jawa, petis udang dan garam secukupnya. Tambahkan air matang sampai kekentalan bumbu cukup.
+\n3. Siram bumbu rujak di atas bahan rujak yang telah ditata di atas piring. Taburkan bawang merah goreng di atasnya.
+\n4. Sajikan rujak cingur dengan kerupuk kampung keriting." />
+
+        <VideoView
+            android:id="@+id/videoView"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            tools:layout_editor_absoluteX="17dp"
+            tools:layout_editor_absoluteY="121dp" />
+
+
+    </LinearLayout>
+</ScrollView>

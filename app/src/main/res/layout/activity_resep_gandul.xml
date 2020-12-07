@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    tools:context=".ResepKrawu">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Resep Nasi Gandul"
+            android:textAlignment="center"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="Bahan bahan : "
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\n500 gr daging sapi
+\n 2 liter air untuk merebus daging, jadikan kuah kaldu
+\n 3 sdm minyak utk menumis
+" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bahan Bumbu Cemplung :"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\n 2 lembar daun salam
+\n 2 cm lengkuas
+\n 2 batang serai
+\n 5 sdm kecap manis
+\n 1 sdt kaldu sapi bubuk
+\n 2,5 sdt garam
+\n 1 keping gula merah
+\n 2 sdt gula pasir
+\n 65 ml santan instan
+
+" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bahan Bumbu Halus :"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\n 3 siung bawang putih
+\n 4 siung bawang merah
+\n 1/2 sdt ketumbar
+\n 1/2 sdt jinten
+\n 1/2 sdt lada bubuk
+\n 1/2 butir biji pala
+\n 2 buah kluwak
+\n 2 buah cabe merah
+\n 3 butir kemiri
+
+" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bahan Pelengkap : "
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\n Keripik Tempe Kriuk
+\n Telur pindang
+" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Langkah-langkah :"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\n1.	Siapkan semua bahan yang akan digunakan, rebus daging dengan 2 liter air hingga empuk. Kemudian potong-potong sesuai selera
+\n2.	Haluskan bumbu, tumis bersama daun salam, sereh dan lengkuas hingga harum dan matang
+\n3.	Masukkan daging yg sudah dipotong-potong kedalam kuah kaldu, tambahkan bumbu yang sudah ditumis
+\n4.	Masukkan bumbu cemplung, icipi rasanya
+\n5.	Masak hingga mendidih dan bumbu meresap.
+\n6.	Sajikan dengan nasi putih dengan pelengkap telur pindang dan tempe goreng
+
+" />
+
+        <VideoView
+            android:id="@+id/videoView"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            tools:layout_editor_absoluteX="17dp"
+            tools:layout_editor_absoluteY="121dp" />
+
+
+    </LinearLayout>
+</ScrollView>

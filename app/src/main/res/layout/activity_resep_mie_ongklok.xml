@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    tools:context=".ResepKrawu">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Resep Mie Ongklok"
+            android:textAlignment="center"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="Bahan Kaldu Ayam :"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="n250 gram tulang ayam
+\n1000 ml air" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="Bahan Isian :"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\nKobis
+\nDaun bawang/ kucai
+\n500 gram mie basah
+\nSambal
+\nBawang goreng" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="Bahan Kuah :"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\nAir kaldu tulang ayam
+\n3 butir Bawang putih
+\n2 butir Kemiri
+\n2 sdm Ebi
+\n3 sdm minyak utk menumis
+\n3 sdm Kecap manis
+\n1/2 sdm garam
+\n1/2 sdm kaldu bubuk
+\n1/4 keping kecil gula jawa
+\n3 sdm tepung maizena larutkan dg sedikit air
+" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Langkah-langkah :"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\n1.	Utk membuat kuahnya kali ini saya menggunakan tulang ayam.pertama rebus air dg tulang ayam dan tunggu hingga air sedikit menyusut
+\n2.	Tumis bumbu halus lalu masukan kedalam air kaldu tadi beserta bumbu2 lain panaskan hingga mendidih dan koreksi rasa.lalu beri larutan maizena aduk sebentar dan sisihkan
+\n3.	Siapkan panci lain dan rebus hingga mendidih lalu masukan mie, kobis, dan kucai(tp dsni saya menggunakan daun bawang krn agak susah utk mendapatkan kucai di jogja) lalu rebus sebntar dan sisihkan di atas piring saji. Siram dg kuah dan beri pelengkap bawang goreng serta sambal.
+\n4.	Mie ongklok siap dinikmati dan selamat mencoba
+" />
+
+        <VideoView
+            android:id="@+id/videoView"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            tools:layout_editor_absoluteX="17dp"
+            tools:layout_editor_absoluteY="121dp" />
+
+
+    </LinearLayout>
+</ScrollView>

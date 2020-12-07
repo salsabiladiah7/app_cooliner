@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    tools:context=".ResepKrawu">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Resep Soto Kuning"
+            android:textAlignment="center"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="Bahan Bahan :"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="250 g kikil tebal
+\n1 ons soun
+\n100 g toge
+\n2 batang daun bawang sledri" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="Bahan Bumbu Basah :"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5 biji bawang merah
+\n3 siung bawang putih
+\n1 ruas jari jahe
+\n1 ruas jari kunyit
+\n1 batang sereh
+\n2 lembar daun jeruk
+\n1 ruas jari lengkuas
+\n3 butir kemiri" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="Bahan Bumbu Kering :"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1/2 sdt lada bubuk
+\n1/2 sdm garam
+\n1/4 sdt ketumbar bubuk
+\n1 bungkus bumbu kaldu
+\n1 sdm gula pasir
+\n1 potong biji pala
+" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="Bahan Tambahan :"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1 biji jeruk nipis
+\n3 buah cabe rawit
+\nSecukupnya kecap
+\nSecukupnya bawang goreng
+" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Langkah-langkah :"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\n1. Haluskan bumbu basah lalu tumis sampe wangi masukkan kikil masak sampai empuk
+\n2. Tambahkan bumbu kering lalu cek rasa sisihkan
+\n3. Seduh soun dengan air panas sisihkan,seduh juga toge...potong2 halus daun sledri nya sisihkan
+\n4. Setelah kikil empuk.sekarang kita tata di mangkok
+\n5. Pertama kita taruh soun dan toge tambahkan daun sledri nya lalu tambahkan kikil potongnya siram dengan kuah taburi bawang goreng..nikmat pake sambel cabe rawit yg direbus lalu diulek kasar..dan tambahkan perasan jeruk nipis dan kecap jika suka selesai.
+" />
+
+        <VideoView
+            android:id="@+id/videoView"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            tools:layout_editor_absoluteX="17dp"
+            tools:layout_editor_absoluteY="121dp" />
+
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    tools:context=".DetailBandros">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Kue Bandros"
+            android:textAlignment="center"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+
+        <ImageView
+            android:id="@+id/gambarBandros"
+            android:layout_width="match_parent"
+            android:layout_height="185dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20sp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="9dp"
+            android:src="@drawable/jb_bandros" />
+
+        <TextView
+            android:id="@+id/text_bandros"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:fontFamily="sans-serif"
+            android:text="Bandros adalah makanan khas Jawa Barat, tepatnya dari Sukabumi, yang terbuat dari campuran tepung beras, kelapa parut, dan santan. Bentuknya mirip dengan kue pukis karena memang menggunakan cetakan yang serupa. Namun tentu saja rasanya berbeda dengan pukis yang memiliki citarasa manis. Bandros memiliki rasa gurih kelapa/santan. Ada juga bandros manis yang bagian atasnya ditaburi gula putih."
+            android:textAlignment="center" />
+
+
+        <Button
+            android:id="@+id/btn_bandros"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text_bandros"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:background="#FED53D"
+            android:text="Resep Kue Bandros" />
+
+    </LinearLayout>
+
+</ScrollView>

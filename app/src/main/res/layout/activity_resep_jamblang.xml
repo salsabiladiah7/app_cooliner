@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    tools:context=".ResepKrawu">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Resep Nasi Jamblang Daun Jati"
+            android:textAlignment="center"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="Bahan Bahan :"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2 gelas belimbing beras
+\n1 butir telur
+\n5 potong tempe
+\n5 buah tahu
+\n2 lembar daun jati
+\nBahan pelengkap :
+\nPerkedel
+\nSate Kentang
+\nSambal" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Langkah-langkah :"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\n1. Cuci bersih beras, masukkan ke dalam magic com, tambahkan air, masak dengan tekan tombol merah
+\n2. Tunggu sampai matang, buka magic com, aduk-aduk nasi yang sudah matang, angkat, akeul (dikipas) dan sisihkan
+\n3. Kocok telur bersama sejumput garam, dadar telur sampai matang
+\n4. Goreng tempe sampai matang, angkat dan tiriskan
+\n5. Goreng tahu sampai matang, angkat dan tiriskan
+\n6. Siapkan daun jati, masukkan 1 centong nasi, lalu bungkus
+\n7. Penyajian, buka nasi dari bungkusnya (daun jati), tambahkan lauk pauk, telur dadar, goreng tempe, goreng tahu, perkedel, sate Kentang dan sambal, siap sajikan
+" />
+
+        <VideoView
+            android:id="@+id/videoView"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            tools:layout_editor_absoluteX="17dp"
+            tools:layout_editor_absoluteY="121dp" />
+
+
+    </LinearLayout>
+</ScrollView>

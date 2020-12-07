@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    tools:context=".ResepKrawu">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Resep Bandros"
+            android:textAlignment="center"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="Bahan Bahan :"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="225 gram tepung beras (saya pakai Rosebrand)
+\n225 gram kelapa muda parut yg dikukus
+\n750 ml santan sedang yg dimasak dgn daun pandan dan 1 sdt garam
+\nMargarin untuk oles cetakan
+\nGula pasir utk taburan" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Langkah-langkah :"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\n1. Siapkan seluruh bahan, panaskan cetakan diatas kompor dgn api kecil.
+\n2. Campur semua bahan, santan dimasukkan secara bertahap dan santan harus dalam kondisi hangat (bukan panas)
+\n3. Oles cetakan dgn margarin/minyak goreng, tuang adonan lalu tutup selama 3 menit.
+\n4. Buka tutupnya, taburi dgn sedikit gula pasir lalu tutup kembali. Biarkan sampai matang (pinggirannya berwarna coklat muda).
+\n5. Atur dengan posisi basah diatas, taburi dgn gula pasir sekali lagi sebelum dihidangkan
+" />
+
+        <VideoView
+            android:id="@+id/videoView"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            tools:layout_editor_absoluteX="17dp"
+            tools:layout_editor_absoluteY="121dp" />
+
+
+    </LinearLayout>
+</ScrollView>

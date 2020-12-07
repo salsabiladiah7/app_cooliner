@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    tools:context=".ResepKrawu">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Resep Nasi Lengko"
+            android:textAlignment="center"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="Bahan bahan : "
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1 potong tahu putih
+\n1 potong tempe
+\n1 genggam toge rebus
+\n1 butir telur
+
+" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bahan Bumbu Kacang :"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1 genggam kacang tanah sangrai/goreng
+\n1 buah cabe rawit(optional)
+\n1/4 sdt garam
+\n1/4 sdt gula pasir
+\n1 sdt gula merah sisir
+\n1 siung bawang putih goreng
+\n1 gelas air
+
+" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bahan Taburan :"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\n1 mangkuk kecil bawang goreng
+\n1 batang kucai iris tipis/bawang daun(me daun bawang)
+\n1 sdm timun cacah
+
+" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Langkah-langkah :"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\n1. Potong kotak2 tahu dan tempe,goreng smp kecoklatan angkat tiriskan.
+\n2. Kocok telur + garam daun bawang,goreng smp matang sisihkan.
+\n3. Iris tipis bawang,lalu goreng jgn smp gosong.
+\n4. Dalam cobek uleg sampai halus semua bahan bumbu kacang tambahkan air sdikit demi sedikit smp kekentalannya pas koreksi rasa sisihkan.
+\n5. Tata nasi dengan bahan pelengkap lainnya,sajikan tambahkan kecap manis
+
+" />
+
+        <VideoView
+            android:id="@+id/videoView"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="30dp"
+            tools:layout_editor_absoluteX="17dp"
+            tools:layout_editor_absoluteY="121dp" />
+
+
+    </LinearLayout>
+</ScrollView>

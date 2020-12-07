@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MoveActivity2">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/gambar1"
+            android:layout_width="match_parent"
+            android:layout_height="185dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="9dp"
+            android:src="@drawable/jb_miekocok" />
+
+        <Button
+            android:id="@+id/btnmiekocok"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="9dp"
+            android:background="#FED53D"
+            android:text="Mie Kocok \n(Bandung)" />
+
+        <ImageView
+            android:id="@+id/gambar2"
+            android:layout_width="match_parent"
+            android:layout_height="185dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="9dp"
+            android:src="@drawable/jb_sotokuning" />
+
+
+        <Button
+            android:id="@+id/btnsotokuning"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="9dp"
+            android:background="#FED53D"
+            android:text="soto kuning \n(Bogor)" />
+
+        <ImageView
+            android:id="@+id/gambar3"
+            android:layout_width="match_parent"
+            android:layout_height="185dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="9dp"
+            android:src="@drawable/jb_jamblang" />
+
+        <Button
+            android:id="@+id/btnjamblang"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="9dp"
+            android:background="#FED53D"
+            android:text="Nasi Jamblang Daun Jati \n(Cirebon)" />
+
+        <ImageView
+            android:id="@+id/gambar4"
+            android:layout_width="match_parent"
+            android:layout_height="185dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="9dp"
+            android:src="@drawable/jb_lengko" />
+
+        <Button
+            android:id="@+id/btnlengko"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="9dp"
+            android:background="#FED53D"
+            android:text="Nasi Lengko \n(Cirebon)" />
+
+        <ImageView
+            android:id="@+id/gambar5"
+            android:layout_width="match_parent"
+            android:layout_height="185dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="9dp"
+            android:src="@drawable/jb_sotomie" />
+
+        <Button
+            android:id="@+id/btnsotomie"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="9dp"
+            android:background="#FED53D"
+            android:text="Soto Mie \n(Bogor)" />
+
+        <ImageView
+            android:id="@+id/gambar6"
+            android:layout_width="match_parent"
+            android:layout_height="185dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="9dp"
+            android:src="@drawable/jb_bandros" />
+
+        <Button
+            android:id="@+id/btnbandros"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="9dp"
+            android:background="#FED53D"
+            android:text="Kue Bandros \n(Sukabumi)" />
+
+        <ImageView
+            android:id="@+id/gambar7"
+            android:layout_width="match_parent"
+            android:layout_height="185dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="9dp"
+            android:src="@drawable/jb_cendol" />
+
+        <Button
+            android:id="@+id/btncendol"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="9dp"
+            android:background="#FED53D"
+            android:text="Es Cendol \n(Bandung)" />
+
+    </LinearLayout>
+</ScrollView>
+

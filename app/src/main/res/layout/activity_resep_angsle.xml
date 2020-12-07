@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    tools:context=".ResepKrawu">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Resep Wedang Angsle"
+            android:textAlignment="center"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="Bahan bahan : "
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\nBeras ketan putih 100 gram ( kukus hingga matang )
+\nBiji delima / Sagu Mutiara 50 gram ( rebus hingga matang, tiriskan )
+\nKacang hijau 50 gram ( rebus hingga matang, tiriskan )
+\nRoti tawar 2 lembar ( buang bagian tepinya, lalu potong dadu 1 centi meter )" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bahan Bahan Petulo :"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\nTepung beras 250 gram ( ayak )
+\nSantan 300 mili liter dari 1/4 butir kelapa parut
+\nGaram 1 sendok teh
+\nDaun pandan 4 lembar ( simpulkan )
+\nTepung kanji 50 gram ( ayak )
+\nPewarna hijau makanan 1/2 sendok teh
+\nPewarna merah muda makanan 1/2 sendok teh" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bahan Krawu Kuning :"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="110 gr kelapa parut memanjang
+\n2 siung bawang putih
+\n1 sdt ketumbar
+\n1/2 sdt garam
+\n2 cm kunyit
+\n3 lembar daun jeruk
+\n1 sdm gula pasir" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bahan Bahan Kuah Wedang Angsle :"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\nSantan encer 1 1/2 liter dari 1 butir kelapa parut
+\nDaun pandan 3 lembar ( simpulkan )
+\nGula pasir 200 gram
+\nGaram 1 sendok teh
+\nJahe emprit 5 centi meter ( memarkan )" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Langkah-langkah :"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\n1. Petulo : kukus tepung beras selama 20 menit dalam dandang panas. angkat. sisihkan.
+\n2. Selanjutnya didihkan santan bersama garam dan daun pandan, angkat. sisihkan daun pandannya. tuang ke dalam tepung beras kukus sambil di aduk hingga agak dingin. tambahkan tepung kanji, aduk cepat hingga semua bahan rata.
+\n3. Setelah itu bagi adonan menjadi 2 bagian, tambahkan masing-masing dengan pewarna hijau dan merah muda. uleni hingga rata. masukkan ke dalam cetakkan putu mayang, tekan hingga adonan terbentuk mie lalu gulung. lakukan hingga adonan habis.
+\n4. Kemudian kukus dalam dandang panas selama 25 menit atau hingga matang. angkat, sisihkan.
+\n5. Kuah : langkah awal didihkan santan bersama daun pandan, gula pasir, garam dan jahe. aduk rata secara perlahan agar santan tidak pecah. angkat.
+\n6. Penyajian : susun ketan, kacang hijau, biji delima, roti tawar dan petulo dalam mangkuk saji. kemudian tuangi dengan kuah santan.
+\n7. Wedang Angsle siap dihidang selagi hangat." />
+
+        <VideoView
+            android:id="@+id/videoView"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            tools:layout_editor_absoluteX="17dp"
+            tools:layout_editor_absoluteY="121dp" />
+
+
+    </LinearLayout>
+</ScrollView>

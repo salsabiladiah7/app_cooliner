@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    tools:context=".ResepKrawu">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Resep Nasi Liwet"
+            android:textAlignment="center"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="Bahan bahan : "
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\n 3 cup beras
+\n 2 lembar daun pandan
+\n 2 lembar daun salam
+\n secukupnya Lada bubuk+garam
+
+" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bahan Sambal Goreng Labu Siam :"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\n 4 buah cabe kriting
+\n 5 buah cabe rawit
+\n 2 lbr daun salam
+\n 2 lbr daun jeruk
+\n Lengkuas
+\n 1 buah Sereh geprek
+\n 3 siung bawang putih
+\n 3 siung bawang merah
+\n 1 buah labu siam (potong korek)
+\n 1/2 wadah santan instan
+\n 1/2 gelas air
+\n Penyedap
+\n 1/2 terasi
+
+" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bahan Opor Ayam Telur :"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\n 1/2 kg ayam (lebih sedap ayam kampung)
+\n 4 butir telur rebus
+\n 4 siung bawang putih
+\n 3 siung bawang merah
+\n Lengkuas
+\n 1 batang sereh
+\n 1 ruas Kunyit
+\n 2 lbr daun salam
+\n 2 lbr daun jeruk
+\n Penyedap
+\n 1/2 wadah santan
+\n 1/2 sdt ketumbar
+\n 1/2 sdt merica
+\n 2 gelas air
+
+" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bahan Kuah Kinca :"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\n 1/2 wadah santan
+\n 1 butir putih telur
+\n 1 gelas air
+\n Garam
+\n Lada
+
+" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Langkah-langkah :"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\n1.	Untuk membuat nasi, seperti biasa memasak nasi menggunakan magicom, air sesuai takaran magicom hanya ditambah santan, daun pandan, lada+garam
+\n2.	Sambal goreng labu siam, halus kan, cabe, bawang merah, bawang putih, terasi,kemudian tumis, masukkan lengkuas, sereh, dan daun jeruk
+\n3.	Masukkan labu siam
+\n4.	Tambahkan air dan santan,penyedap, tunggu sampa air menyusut
+\n5.	Opor ayam, haluskan bawang merah, bawang putih, ketumbar, kunyit, merica,lalu tumis, masukkan lengkuas, sereh, daun salam, daun jeruk, hingga berbau harum
+\n6.	Tambah kan air + santan, didihkan, masukkan ayam+telur rebus yg sudah dikupas, masak hingga ayam matang
+\n7.	Kuah kinca santan, campurkan semua bahan aduk2 hingga mebentuk Scramble egg, angkat
+\n8.	Nasi Liwet Solo siap dinikmati.
+
+" />
+
+        <VideoView
+            android:id="@+id/videoView"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="30dp"
+            tools:layout_editor_absoluteX="17dp"
+            tools:layout_editor_absoluteY="121dp" />
+
+
+    </LinearLayout>
+</ScrollView>

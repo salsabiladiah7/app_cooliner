@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    tools:context=".ResepKrawu">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Resep Mie Kocok"
+            android:textAlignment="center"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="Bahan Bahan :"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1/2 kg kikil (cuci bersih lalu rebus hingga empuk lalu potong-potong)
+\n1/4 daging sapi (boleh pakai tulangnya juga), cuci bersih lalu rebus setengahmatang
+\n10 biji bakso sapi
+\n1 bungkus mie kuning pipih (direbus matang)
+\n1/4 tauge (direbuas sebentar)
+\nSecukupnya Air kaldu
+\nSecukupnya Air" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="Bahan Bumbu :"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="9 siung bawang merah
+\n7 siung bawang putih
+\n3 batang sereh
+\n5 butir kemiri
+\n3 ruas jahe
+\n5 lembar daun jeruk
+\n3 lembar daun salam
+\nsecukupnya Garam
+\nsecukupnya Gula pasir
+\nsecukupnya Merica bubuk
+\nsecukupnya Kaldu bubuk rasa sapi" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="Bahan Pelengkap :"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\nJeruk limau
+\nSeledri
+\nDaun bawang
+\nSambal cabe rawit
+\nBawang goreng
+" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Langkah-langkah :"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\n1. Haluskan bawang merah, bawang putih, jahe dan kemiri. Siapkan wajan dan panaskan minyak untuk menumis bumbu halusnya, tumis sampai wangi dan kemudian masukkan daun jeruk, daun salam dan sereh.Tumis bumbunya hingga matang. Jika bumbunya sudah matang maka angkat dan sisihkan.
+\n2. Didihkan air di panci untuk membuat kuah kaldunya.Setelah airnya mendidih masukkan tulang atau balung untuk mendapatkan kaldu (kalau tidak memakai tulang langsung saja masukkan bumbu yang sudah digoreng) setelah keluar kaldunya masukkan bumbu yang telah ditumis tadi, masukkan garam, gula, merica dan kaldu bubuk.
+\n3. Selanjutnya masukkan daging sapi ke dalam kuah hingga dagingnya matang dan empuk, lalu masukkan baksonya juga. Tunggu hingga matang dan meresap bumbunya ke dalam daging. Dan jangan lupa uji rasa ya...
+\n4. Setelah dagingnya empuk dan kuahnya sudah dirasa pas kita kecilkan api kompornya agar kuah tetap panas, kita lanjut meracik mie kocoknya.
+\n5. Siapkan mangkok, masukkan mie kuning, taoge, kikil lalu siram dengan kuah dan isinya (daging plus bakso). Taburi daun bawang, seledri dan bawang goreng. Jangan lupa sertakan sambal dan jeruk limaunya. Siap disajikan….selamat mencoba.
+" />
+
+        <VideoView
+            android:id="@+id/videoView"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="30dp"
+            tools:layout_editor_absoluteX="17dp"
+            tools:layout_editor_absoluteY="121dp" />
+
+
+    </LinearLayout>
+</ScrollView>

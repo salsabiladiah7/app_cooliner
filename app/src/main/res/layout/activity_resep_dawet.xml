@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    tools:context=".ResepKrawu">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Resep Dawet Ireng"
+            android:textAlignment="center"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="Bahan Dawet : "
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\n 5 sdm abu merang, larutkan dengan 200 ml air
+\n 60 gram tepung beras
+\n 50 gram tepung tapioka
+\n 500 ml air
+\n 1/2 sdt garam
+\n Es batu (plastik 1/2 kg), pecahkan
+\n 1 1/2 liter air matang
+
+" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bahan Kuah Santan :"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\n 2 gelas belimbing santan dari 1/2 butir kelapa
+\n 2 lembar daun pandan
+\n 1/2 sdt garam
+
+" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bahan Kuah Gula :"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\n 500 gram gula aren/merah
+\n 2 lembar daun pandan
+\n 2 gelas belimbing air
+
+" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Langkah-langkah :"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\n1.	Saring larutan abu merang dengan kain halus (sapu tangan). Endapkan.
+\n2.	Campur larutan abu merang dengan kedua tepung. Endapan abu jangan diikutkan. Aduk hingga tidak bergerindil.
+\n3.	Siapkan es batu dengan air dalam wadah terpisah.
+\n4.	Didihkan 500 ml air dan garam.
+\n5.	Aduk-aduk terlebih dahulu larutan tepung hingga rata lalu masukkan ke dalam air yang mendidih sambil diaduk-aduk hingga mengental dan meletup-letup. Dengan api kecil.
+\n6.	Siapkan cetakan dawet dan centong plastik. Saya pakai serokan bolong-bolong.
+\n7.	Ambil 1 centong adonan lalu cetak dengan cara menekan adonan hingga jatuh ke air es. Jaraknya dengan air es jangan terlalu dekat.
+\n8.	Lakukan hingga adonan habis sebelum dingin. Adonan yang dingin membuat si dawet sulit dicetak.
+\n9.	Didihkan bahan kuah gula lalu saring.
+\n10.	Didihkan bahan kuah santan sambil terus diaduk-aduk supaya tidak pecah. Saring
+\n11.	Tata dalam mangkok atau gelas. Dawet, kuah gula, lalu kuah santan. Beri es secukupnya.
+\n12.	Jika ingin awet, simpan dawet dan kuah dalam wadah rapat secara terpisah di dalam kulkas.
+\n13.	Dawet ireng siap dinikmati kapan saja.
+
+" />
+
+        <VideoView
+            android:id="@+id/videoView"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            tools:layout_editor_absoluteX="17dp"
+            tools:layout_editor_absoluteY="121dp" />
+
+
+    </LinearLayout>
+</ScrollView>

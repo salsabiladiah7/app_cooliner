@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MoveActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/gambar1"
+            android:layout_width="match_parent"
+            android:layout_height="185dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="9dp"
+            android:src="@drawable/jt_nasipecel" />
+
+        <Button
+            android:id="@+id/btnpecel"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="9dp"
+            android:background="#FED53D"
+            android:text="Nasi Pecel \n(Madiun)" />
+
+        <ImageView
+            android:id="@+id/gambar2"
+            android:layout_width="match_parent"
+            android:layout_height="185dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="9dp"
+            android:src="@drawable/jt_bakso" />
+
+
+        <Button
+            android:id="@+id/btnbakso"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="9dp"
+            android:background="#FED53D"
+            android:text="Bakso Malang \n(Malang)" />
+
+        <ImageView
+            android:id="@+id/gambar3"
+            android:layout_width="match_parent"
+            android:layout_height="185dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="9dp"
+            android:src="@drawable/jt_lontongbalap" />
+
+        <Button
+            android:id="@+id/btnlontongbalap"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="9dp"
+            android:background="#FED53D"
+            android:text="Lontong Balap \n(Surabaya)" />
+
+        <ImageView
+            android:id="@+id/gambar4"
+            android:layout_width="match_parent"
+            android:layout_height="185dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="9dp"
+            android:src="@drawable/jt_nasikrawu" />
+
+        <Button
+            android:id="@+id/btnkrawu"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="9dp"
+            android:background="#FED53D"
+            android:text="Nasi Krawu \n(Gresik)" />
+
+        <ImageView
+            android:id="@+id/gambar5"
+            android:layout_width="match_parent"
+            android:layout_height="185dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="9dp"
+            android:src="@drawable/jt_rujakcingur" />
+
+        <Button
+            android:id="@+id/btnrujak"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="9dp"
+            android:background="#FED53D"
+            android:text="Rujak Cingur \n(Surabaya)" />
+
+        <ImageView
+            android:id="@+id/gambar6"
+            android:layout_width="match_parent"
+            android:layout_height="185dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="9dp"
+            android:src="@drawable/jt_madu" />
+
+        <Button
+            android:id="@+id/btnmadu"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="9dp"
+            android:background="#FED53D"
+            android:text="Madu Mongso \n(Ponorogo)" />
+
+        <ImageView
+            android:id="@+id/gambar7"
+            android:layout_width="match_parent"
+            android:layout_height="185dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="9dp"
+            android:src="@drawable/jt_wedangangsle" />
+
+        <Button
+            android:id="@+id/btnangsle"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="9dp"
+            android:background="#FED53D"
+            android:text="Wedang Angsle \n(Malang)" />
+
+    </LinearLayout>
+</ScrollView>
+

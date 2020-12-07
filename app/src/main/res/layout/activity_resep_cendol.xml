@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    tools:context=".ResepKrawu">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Resep Es Cendol"
+            android:textAlignment="center"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="Bahan Bahan :"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="120 gr tepung beras
+\n50 gr tepung tapioca
+\n1 liter air
+\n1 sdt garam
+\n2 sdt pasta pandan" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="Bahan Kuah Santan :"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="65 ml santan kara + air hingga jadi 200 ml
+\n1 sdt garam campur di santannya" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="Bahan Kuah Gula :"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="200 gr gula merah
+\n100 gr gula pasir
+\n200 ml air putih
+\n2 sdm maizena
+\n1 lembar daun pandan" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="Langkah-langkah :"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\n1. Pertama bikin cendolnya dulu, Siapkan panci masukan tepung beras tapioca, pasta pandan dan air campur sampai merata baru dihidupkan kompornya
+\n2. Hidupkan kompor dengan api sedang aja. Sambil diaduk ya biar adonan tidak lengket dan hangus dibagian bawahnya
+\n3. Setelah adonan mengental dan matang matikan kompor.
+\n4. Siapkan baskom berisi air dan es batu kemudian siapkan saringan atau serok yg lubangnya besar
+\n5. Sambil dipegang masukan sedikit adonan kedlm serok atau saringan seperti ini tekan tekan adonan dengan sendok sampai adonannya keluar dibagian bawah serokan dan masuk kedalam baskom berisi air dan es tadi
+\n6. Lakukan sampai adonan habis
+\n7. Untuk kuah gulanya siapkan panci rebus gula merah, gula pasir, air, daun pandan sampai semua tercampur rata. Kalau sdh gulanya meleleh masukan maizena yg sdh diberi sedikit air campur kedlm kuah gula tadi aduk aduk sebentar sampai tercampur rata baru matikan kompornya
+\n8. Nah es cendolnya udah siap untuk dihidangkan siapkan es batu yg dipotong kecil kecil masukan dlm gelas kemudian masukan cendolnya siram dengan santan dan kuah gulanya jadi deh es cendolnya
+" />
+
+        <VideoView
+            android:id="@+id/videoView"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            tools:layout_editor_absoluteX="17dp"
+            tools:layout_editor_absoluteY="121dp" />
+
+
+    </LinearLayout>
+</ScrollView>

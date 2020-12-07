@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    tools:context=".ResepKrawu">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Resep Madu Mongso"
+            android:textAlignment="center"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="Bahan-bahan :"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\n1 bungkus santan kara bubuk 50 gr
+\n50 ml air untuk mengencerkan santan bubuk
+\n16 sdm gula pasir (bila tak suka manis bisa dikurangi)
+\n1 lembar daun pandan" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Langkah-langkah :"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Siapkan semua bahan
+\n2. Didihkan tape ketan hitam bersama airnya, santan kara bubuk dan daun pandan dan 5 sdm gula pasir. Dimasak sampai airnya hampir habis. Santan bubuk diencerkan dengan 50 ml air.
+\n3. Setelah air agak menyusut masukkan sisa gula pasir masak sampai matang, tandanya sampai liat dan tidak lengket di alat pengaduk atau spatula.
+\n4. Angkat madu mongso letakkan pada wadah, saya pakai piring yang dialasi daun pisang.
+\n5. Tunggu agak dingin baru dibentuk.
+\n6. Bungkus dengan plastik, saya menggunakan plastik wrap dan diikat dengan benang wol.
+\n7. Madu mongso siap dinikmati, rasanya manis dan sedikit asam dari tapenya." />
+
+        <VideoView
+            android:id="@+id/videoView"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            tools:layout_editor_absoluteX="17dp"
+            tools:layout_editor_absoluteY="121dp" />
+
+
+    </LinearLayout>
+</ScrollView>
